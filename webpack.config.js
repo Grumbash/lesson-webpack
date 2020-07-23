@@ -25,4 +25,8 @@ module.exports = {
       template: "./src/index.html",
     }),
   ],
+  mode: "development",
+  devServer: {
+    https: true,
+  },
 };
